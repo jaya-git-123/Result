@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerBox{
+    border : 1px;
+    width  : 550px;
+    height : 350px;
+    position : relative;
+    top: 150px;
+    border-radius: 30px;
+    background-color:white;
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+}
+.innerBox{
+    border : 1px ;
+    width  : 275px;
+    height : 350px;
+    position : absolute;
+    border-radius: 30px;
+    background-color: #6e00de; 
+    background-image: linear-gradient(242deg, #6e00de 0%, #d800ff 72%);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.innerBoxResultH2{
+    color: rgb(212, 193, 168);
+    font-size: 22px;
+    position: relative;
+    top: 12px;
+    left: 70px;
+}
+.cycleDiv{
+    width: 150px;
+    height: 150px; 
+    border: 5px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background-color: #6e00de; 
+    background-image: linear-gradient(242deg, #6e00de 0%, #d800ff 72%);
+    border-radius: 50%;
+    box-shadow: inset 18px 15px 24px -3px rgba(0,0,0,0.53);
+}
+.score{
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    color: White;
+    font-size: 37px;
+}
+.results{
+    position: absolute;
+    top: 95px;
+    left: 50px;
+    color: rgb(212, 193, 168);
+    font-size: 18px;
+}
+.greath2{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    color: White;
+    font-size: 28px;
+}
+.scorePara{
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    color: rgb(212, 193, 168);
+    font-size: 16px;
+}
+.summaryH2{
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    top: 12px;
+    left: 300px;
+}
+.reactionBox{
+    position: relative;
+    top: 60px;
+    left: 295px;
+    width: 235px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #f7dae8;
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+}
+.bi-lightning-charge{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.reactionPara{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    color:#fc6f6f;
+    font-weight: bold;
+}
+.reactionParaRate{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+}
+span{
+    color: grey;
+}
+.memoryBox{
+    position: relative;
+    top: 70px;
+    left: 295px;
+    width: 235px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: rgb(250, 250, 146);
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+}
+.memorySvg{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.memoryPara{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    color:#e0dd11;
+    font-weight: bold;
+}
+.memoryParaRate{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+}
+.verbalBox{
+    position: relative;
+    top: 80px;
+    left: 295px;
+    width: 235px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: rgb(142, 248, 142);
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+}
+.verbalSvg{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.verbalPara{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    color:#26be26;
+    font-weight: bold;
+}
+.verbalParaRate{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+}
+.visualBox{
+    position: relative;
+    top: 90px;
+    left: 295px;
+    width: 235px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #d583e4;
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+}
+.visualSvg{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.visualPara{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    color:#8c21f8;
+    font-weight: bold;
+}
+.visualParaRate{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+}
+.button{
+    position: relative;
+    top: 100px;
+    left: 295px;
+    border: 1px;
+    width: 235px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+    border-radius: 35px;
+    box-shadow: 18px 15px 19px -7px rgba(0,0,0,0.43);
+    background-color: #09020f; 
+}
